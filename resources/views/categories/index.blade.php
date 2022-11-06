@@ -26,6 +26,7 @@
             @endforeach
         </div>
         <div class='paginate'>{{ $posts->links() }}</div>
+        <a href="/">戻る</a>
         <script>
             function deletePost(id) {
                 'use strict'
